@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#333;
+    color: #333;
+    text-align: center;
+}
+
+.article {
+    background-color: antiquewhite;
+}
+h1 {
+    color:white;
+}
+
+/* Add Post button style */
+a {
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Edit and Delete button styles */
+.edit-button,
+.delete-button {
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Delete button specific style */
+.delete-button {
+    background-color: #e74c3c;
+}
+
+/* Center the buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style article titles */
+h2 {
+    color: #e67e22;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
